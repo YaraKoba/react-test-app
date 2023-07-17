@@ -33,7 +33,6 @@ function Posts() {
   const paheArray = usePagination(limit, totalCount)
 
   useEffect(() => {
-    console.log("useEffect")
     fetchingPosts()
   }, [page]);
 

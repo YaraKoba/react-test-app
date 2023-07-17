@@ -19,6 +19,7 @@ function PostFilter({ filter, setFilter }) {
                 options={[
                     {value: "title", name: "Name"},
                     {value: "body", name: "body"},
+                    {value: "", name: "id"},
                 ]}
             />
       </div>

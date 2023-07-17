@@ -16,7 +16,6 @@ function PostList({ posts, title, remove, loading, error }) {
     }
 
     if (!posts.length) {
-            console.log("post not found")
         return <h1 style={{textAlign: "center", marginTop: '20px'}}>Posts not found</h1>;
     }; 
     
