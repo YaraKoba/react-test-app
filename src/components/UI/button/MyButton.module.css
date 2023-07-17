@@ -2,7 +2,12 @@
     padding: 5px 15px;
     color: teal;
     font-size: 14px;
-    background: transparent;
+    background: black;
     border: 2px solid teal;
     cursor: pointer;
+}
+
+.myBtn.active {
+    color: rgb(0, 184, 184);
+    background: rgb(0, 88, 88);
 }
